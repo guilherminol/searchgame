@@ -1,4 +1,10 @@
+import { Container } from "./styles";
+import HomePageHeader from "../../components/HomePageHeader";
 const Home = () => {
-  return <h1>HomePage</h1>;
+  return (
+    <Container>
+      <HomePageHeader />
+    </Container>
+  );
 };
 export default Home;
